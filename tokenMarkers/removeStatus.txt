@@ -1,0 +1,4 @@
+!token-mod {{
+    --set 
+    statusmarkers|?{Apply what Status?|-Confused|-Exhaustion1|-Exhaustion2|-Exhaustion3|-Exhaustion4|-Exhaustion5|-Exhaustion6|-Flying|-Hexed|-Inspired|-MageArmor|-Marked|-Polymorphed|-Rage|-Taunted|-WildShape}
+}}
