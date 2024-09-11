@@ -1,0 +1,4 @@
+!token-mod {{
+    --set 
+    statusmarkers|?{Apply what Condition?|Advantage|Blind|Charmed|Concentration|Deafened|Disadvantage|Frightened|Grappled|Incapacitated|Invisible|Paralyzed|Petrified|Poisoned|Prone|Restrained|Stunned|Unconscious}
+}}
