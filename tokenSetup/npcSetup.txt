@@ -1,0 +1,12 @@
+!token-mod {{
+  --set
+    name|"@{selected|character_name} %%NUMBERED%%"
+    showname|on
+    bar1_link|hp
+    bar2_link|npc_ac
+    bar3_link|npc_speed
+    controlledby|
+}}
+!token-mod --set bar1_link|
+!token-mod --on showplayers_name
+!token-mod --set defaulttoken
