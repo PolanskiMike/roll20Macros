@@ -1,2 +1,3 @@
 # Roll20 API Macros
 This is a list of API Macros that I use in my Roll20 D&D 5e games. For each of the macros created there is a readme.md file that provides the purpose and requirements to run them. It also provides acknowledgement to the creators of each of the APIs. Thanks again to all the API Script creators for your contributions, they are greatly appreciated.
+I would also like to thank Nick Olivo for his expert guidance on using Roll20. You will notice on his channel that he goes over the creation of many of these API Macros and how to use them, that's where I got a lot of them from. Please see his YouTube Channel here: https://www.youtube.com/@NickOlivo/featured
