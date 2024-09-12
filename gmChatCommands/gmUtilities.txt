@@ -1,0 +1,52 @@
+This is the first ability in the utility in the character sheet that references the other abilities (which are written as API macros)
+
+
+/w gm &{template:default} {{name=**Encounters**}} {{
+[Active Encounter Page](~activateEncouterPage)
+[Blizzard](~blizzards)
+[Create Encounters](~createEncounter)
+[Group Check](~groupCheck)
+[List Encounters](~listEncounter)
+[NPC Setup](~npcSetup)
+[Thundersnow](~thundersnow)
+[Token Actions Attacks](~tokenActionsAttacks)
+[Token Actions Spells](~tokenActionsSpells)
+}}
+
+activateEncouterPage ability
+!eh pagelist
+
+blizzards ability
+&{template:default} {{name=**Blizzard**}} {{Blizzard Occurence=[[1t[blizzard]]] for [[2d4]] hours}}{{Thundersnow Occurence=[[1t[thundersnow]]]}} 
+
+createEncounter ability
+!eh create ?{What do you want to call the encounter?}
+
+groupCheck ability
+!group-Check
+
+listEncounters ability
+!eh list
+
+npcSetup ability
+!token-mod {{
+  --set
+    name|"@{selected|character_name} %%NUMBERED%%"
+    showname|on
+    bar1_link|hp
+    bar2_link|npc_ac
+    bar3_link|npc_speed
+    controlledby|
+}}
+!token-mod --set bar1_link|
+!token-mod --on showplayers_name
+!token-mod --set defaulttoken
+
+thundersnow ability
+&{template:default} {{name=**Thundersnow**}} {{Strike Location=[[1d100]]}} {{Direct Strike Damage = [[8d6]] DC18 DEX Save, half as much on a successful save.}} {{Indirect Strike Damage=[[4d6]] DC18 DEX Save, half as much on a save. On a fail get thrown [[1d4*5]] feet to the [[1t[thundersnow-location]]]}}
+
+tokenActionAttacks ability
+!ta attacks
+
+tokenActionSpells ability
+!ta spells
