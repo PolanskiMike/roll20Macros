@@ -23,7 +23,7 @@ Name: createEncounter
 !eh create ?{What do you want to call the encounter?}
 
 Name: groupCheck
-!group-Check
+!group-check --whisper
 
 Name: listEncounters
 !eh list
