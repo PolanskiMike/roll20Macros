@@ -1,16 +1,16 @@
 This is the first ability in the utility in the character sheet that references the other abilities (which are written as API macros)
 
 Name: gmUtilities
-/w gm &{template:default} {{name=**Encounters**}} {{
-[Active Encounter Page](~activateEncouterPage)
-[Blizzard](~blizzards)
-[Create Encounters](~createEncounter)
-[Group Check](~groupCheck)
-[List Encounters](~listEncounter)
-[NPC Setup](~npcSetup)
-[Thundersnow](~thundersnow)
-[Token Actions Attacks](~tokenActionsAttacks)
-[Token Actions Spells](~tokenActionsSpells)
+/w gm &{template:default} &{no-error} {{name=**Encounters**}} {{description= 
+[Blizzard](~blizzards" style="border-style:solid;border-width:1px;border-color:white;background-color:transparent;padding:2px;color:white;font-weight:bold;)
+[Create Encounter](~createEncounter" style="border-style:solid;border-width:1px;border-color:white;background-color:transparent;padding:2px;color:white;font-weight:bold; 
+[Direct Lightning](~directStrike" style="border-style:solid;border-width:1px;border-color:white;background-color:transparent;padding:2px;color:white;font-weight:bold;)
+[Encounter Activate Page](~activateEncounterPage" style="border-style:solid;border-width:1px;border-color:white;background-color:transparent;padding:2px;color:white;font-weight:bold;)
+[Encounter List](~listEncounters" style="border-style:solid;border-width:1px;border-color:white;background-color:transparent;padding:2px;color:white;font-weight:bold;)
+[Group Check](~groupCheck" style="border-style:solid;border-width:1px;border-color:white;background-color:transparent;padding:2px;color:white;font-weight:bold;)
+[Indirect Lightning](~indirectStrike" style="border-style:solid;border-width:1px;border-color:white;background-color:transparent;padding:2px;color:white;font-weight:bold;)
+[NPC Setup](~npcSetup" style="border-style:solid;border-width:1px;border-color:white;background-color:transparent;padding:2px;color:white;font-weight:bold;)
+[Token Actions](~tokenActions" style="border-style:solid;border-width:1px;border-color:white;background-color:transparent;padding:2px;color:white;font-weight:bold;)
 }}
 
 Name: activateEncouterPage
