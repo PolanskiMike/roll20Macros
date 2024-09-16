@@ -1,16 +1,18 @@
 This is the first ability in the utility in the character sheet that references the other abilities (which are written as API macros)
 
 Name: gmUtilities
-/w gm &{template:default} &{no-error} {{name=**Encounters**}} {{description= 
+/w gm &{template:default} &{no-error} {{name=**Encounters**}} {{description=
+[Active Encounter Page](~activateEncouterPage" style="border-style:solid;border-width:1px;border-color:white;background-color:transparent;padding:2px;color:white;font-weight:bold;)
 [Blizzard](~blizzards" style="border-style:solid;border-width:1px;border-color:white;background-color:transparent;padding:2px;color:white;font-weight:bold;)
-[Create Encounter](~createEncounter" style="border-style:solid;border-width:1px;border-color:white;background-color:transparent;padding:2px;color:white;font-weight:bold; 
-[Direct Lightning](~directStrike" style="border-style:solid;border-width:1px;border-color:white;background-color:transparent;padding:2px;color:white;font-weight:bold;)
-[Encounter Activate Page](~activateEncounterPage" style="border-style:solid;border-width:1px;border-color:white;background-color:transparent;padding:2px;color:white;font-weight:bold;)
-[Encounter List](~listEncounters" style="border-style:solid;border-width:1px;border-color:white;background-color:transparent;padding:2px;color:white;font-weight:bold;)
+[Create Encounters](~createEncounter" style="border-style:solid;border-width:1px;border-color:white;background-color:transparent;padding:2px;color:white;font-weight:bold;)
 [Group Check](~groupCheck" style="border-style:solid;border-width:1px;border-color:white;background-color:transparent;padding:2px;color:white;font-weight:bold;)
-[Indirect Lightning](~indirectStrike" style="border-style:solid;border-width:1px;border-color:white;background-color:transparent;padding:2px;color:white;font-weight:bold;)
+[List Encounters](~listEncounters" style="border-style:solid;border-width:1px;border-color:white;background-color:transparent;padding:2px;color:white;font-weight:bold;)
 [NPC Setup](~npcSetup" style="border-style:solid;border-width:1px;border-color:white;background-color:transparent;padding:2px;color:white;font-weight:bold;)
-[Token Actions](~tokenActions" style="border-style:solid;border-width:1px;border-color:white;background-color:transparent;padding:2px;color:white;font-weight:bold;)
+[Resize Token 5 Foot](~resizeToken5" style="border-style:solid;border-width:1px;border-color:white;background-color:transparent;padding:2px;color:white;font-weight:bold;)
+[Resize Token 10 Foot](~resizeToken10" style="border-style:solid;border-width:1px;border-color:white;background-color:transparent;padding:2px;color:white;font-weight:bold;)
+[Thundersnow](~thundersnow" style="border-style:solid;border-width:1px;border-color:white;background-color:transparent;padding:2px;color:white;font-weight:bold;)
+[Token Actions Attacks](~tokenActionsAttacks" style="border-style:solid;border-width:1px;border-color:white;background-color:transparent;padding:2px;color:white;font-weight:bold;)
+[Token Actions Spells](~tokenActionsSpells" style="border-style:solid;border-width:1px;border-color:white;background-color:transparent;padding:2px;color:white;font-weight:bold;)
 }}
 
 Name: activateEncouterPage
